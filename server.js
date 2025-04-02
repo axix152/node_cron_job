@@ -1,6 +1,6 @@
 const express = require("express");
-const userRoutes = require("./routes/userRoutes");
-const { schedule } = require("./jobs/sendDataJob");
+const userRoutes = require("./src/routes/userRoutes");
+const { schedule } = require("./src/jobs/sendDataJob");
 
 const app = express();
 const PORT = process.env.PORT || 3000;
